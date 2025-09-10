@@ -1,0 +1,57 @@
+# .gitignore for C# .NET projects (Console, ASP.NET, WinForms, etc.)
+
+# Build results
+[Bb]in/
+[Oo]bj/
+build/
+bld/
+x64/
+x86/
+*.exe
+*.dll
+*.app
+*.pdb
+*.mdb
+*.cache
+*.log
+
+# Visual Studio files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.VC.db
+*.VC.opendb
+
+# Test results and coverage
+TestResults/
+*.coverage
+*.coveragexml
+*.trx
+*.nupkg
+*.snupkg
+
+# NuGet Packages
+project.lock.json
+project.assets.json
+packages/
+*.nupkg
+
+# ASP.NET / Static site output
+wwwroot/
+publish/
+*.db
+*.db-shm
+*.db-wal
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~*
+
+# OS-specific
+.DS_Store
+Thumbs.db
+ehthumbs.db
